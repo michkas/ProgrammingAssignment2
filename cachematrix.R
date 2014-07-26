@@ -29,7 +29,7 @@
 ## empty matrix (1X1 NA).
 
 
-makeCacheMatrix <- function(mat=matrix(numeric(0),1,1))
+makeCacheMatrix <- function(mat=matrix())
 {
         ## The inverse of mat is initialized to NULL
         matInv <- NULL
